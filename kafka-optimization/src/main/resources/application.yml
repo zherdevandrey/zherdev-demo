@@ -1,0 +1,24 @@
+
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+#    properties:
+#      enable-idempotence: true
+
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      acks: all
+#      transaction-id-prefix: tx-
+
+
+    consumer:
+      group-id: my-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      auto-offset-reset: latest
+#    listener:
+#      ack-mode: manual
+server:
+  port: 8081

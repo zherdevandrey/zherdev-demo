@@ -1,0 +1,18 @@
+[req]
+default_bits = 4096
+prompt = no
+default_md = sha256
+distinguished_name = dn
+req_extensions = req_ext  # Включаем расширения
+
+[dn]
+CN = ssl-domain  # Common Name (не обязательно wildcard здесь)
+O = My Organization
+C = RU
+
+[req_ext]
+subjectAltName = @alt_names  # Критически важно для wildcard!
+
+[alt_names]
+DNS.1 = *.ssl-domain  # Wildcard для поддоменов
+DNS.2 = ssl-domain    # Основной домен

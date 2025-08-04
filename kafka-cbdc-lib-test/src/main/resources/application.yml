@@ -1,0 +1,43 @@
+spring:
+  application.name: aml-cft-check-service
+  kafka:
+    application:
+      namespace: local
+    listener:
+      ack-mode: RECORD
+      concurrency: 10
+    retry:
+      topic:
+        partitions-number: 5
+        retention-bytes: 241748365 # ~250mb, per partition
+        retention-ms: 259200000 # 3 days
+        segment-bytes: 241748365 # ~250mb, per partition
+        segment-ms: 345600000 # 4 days
+#    admin:
+#      modify-topic-configs: true
+
+    bootstrap-servers: 127.0.0.1:9092
+    ssl:
+      trust-store-type: null # PEM
+      trust-store-certificates: null # -----BEGIN CERTIFICATE-----\n...\n-----END CERTIFICATE-----
+    security.protocol: PLAINTEXT # SASL_SSL, SASL_PLAINTEXT
+    properties:
+      sasl.mechanism: SCRAM-SHA-256
+    jaas:
+      enabled: true
+      login-module: org.apache.kafka.common.security.scram.ScramLoginModule
+      options:
+        username: user
+        password: password
+
+app:
+  amber:
+    url:
+      - ecs-ca-adapter.idm.banksoyuz.int[1333]
+      - ecs-ca-adapter.idm.banksoyuz.int[1333]
+    idle-reconnect-interval: 600s
+    socket-timeout: 60s
+    connection-pool-size: 20
+    session:
+      name: PROCESSING
+      password: 12345678

@@ -1,0 +1,14 @@
+spring:
+  application.name: aml-cft-check-service
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cbdc_aml-cft_check_service
+    username: postgres
+    password: 123
+    hikari:
+      keepalive-time: 60000
+      max-lifetime: 1800000

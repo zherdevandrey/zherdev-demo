@@ -1,0 +1,25 @@
+message Delivery{
+  oneof type {
+    TaxiDelivery taxi = 1;
+    BicycleDelivery bicycle = 2;
+    DroneDelivery drone = 3;
+  }
+}
+
+message TaxiDelivery {
+  required string taxiId = 1;
+  required string driverName = 2;
+  required double fare = 4;
+}
+
+message BicycleDelivery {
+  required string riderName = 1;
+  required string bicycleModel = 2;
+  required double deliveryDistance = 3;
+}
+
+message DroneDelivery {
+  required string droneName = 1;
+  required string operatorName = 2;
+  required double altitude = 3;
+}

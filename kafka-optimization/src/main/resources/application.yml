@@ -12,11 +12,15 @@ spring:
       acks: all
 #      transaction-id-prefix: tx-
 
-
     consumer:
       group-id: my-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    ssl:
+      trust-store-certificates:
+    admin:
+      ssl:
+        trust-store-certificates:
 #      auto-offset-reset: latest
 #    listener:
 #      ack-mode: manual

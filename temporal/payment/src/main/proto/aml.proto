@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message AmlCftRequest {
+  string oprId = 1;
+}
+
+message AmlCftResponse {
+  AmlStatus AmlStatus = 1;
+}
+
+enum AmlStatus {
+  PASSED = 0;
+  FAILED = 1;
+  PENDING = 2;
+}
+
+service AmlService {
+  rpc checkAml(AmlCftRequest) returns (AmlCftResponse) {}
+}

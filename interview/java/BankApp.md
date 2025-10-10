@@ -3,9 +3,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BankAccount {
-    private String accountNumber;
     private String owner;
-    private double balance;
-    private List<String> transactions;
+    private BigDecimal balance;
+    private List<String> transactionsHistory;
+    
+    
+    public void deposit(BigDecimal amount) {
+    }
+
+    public void withdraw(BigDecimal amount) {
+    }
 }
 ```

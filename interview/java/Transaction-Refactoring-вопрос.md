@@ -57,7 +57,7 @@ public class BankTransferService {
             
         } catch (Exception e) {
             System.out.println("Transfer failed: " + e.getMessage());
-            throw e;
+            throw new IoException(e);
         }
     }
 
@@ -77,11 +77,7 @@ public class BankTransferService {
             account.setBalance(account.getBalance().add(interest));
             accountRepository.save(account);
             
-            try {
-                Thread.sleep(10); // Имитация сложных вычислений
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
+            longCalculatioMethod();
         }
     }
 

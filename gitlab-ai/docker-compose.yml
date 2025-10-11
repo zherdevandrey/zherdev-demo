@@ -37,6 +37,22 @@ services:
     extra_hosts:
       - "gitlab:host-gateway"
 
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: always
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama:/root/.ollama
+    networks:
+      - gitlab-network
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_ORIGINS=*
+    command: serve
+
 networks:
   gitlab-network:
     name: gitlab-network

@@ -33,12 +33,17 @@ user.namespace = ns
 user.save!(validate: false)
 
 
+## 4️⃣ Генерация токена
+docker exec -it gitlab bash
+gitlab-rails runner "puts Gitlab::CurrentSettings.current_application_settings.runners_registration_token"
+
+
 ## 4️⃣ Регистрация ранера
 docker exec -it gitlab-runner gitlab-runner register
 
 - Пример
-Enter the GitLab instance URL: http://gitlab/
-Enter the registration token: <paste your token>
+Enter the GitLab instance URL: http://gitlab/   http://172.18.0.2/
+Enter the registration token: <paste your token> sHLrpZLxCC5so2Vbhpis
 Enter a description for the runner: docker-runner
 Enter tags for the runner (comma-separated): docker
 Enter executor: docker

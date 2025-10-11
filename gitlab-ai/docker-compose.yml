@@ -4,20 +4,12 @@ services:
   gitlab:
     image: gitlab/gitlab-ce:latest
     restart: always
-    hostname: "localhost"
+    hostname: "gitlab"
     container_name: gitlab
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        external_url 'http://localhost'
+        external_url 'http://gitlab'
         gitlab_rails['gitlab_shell_ssh_port'] = 2222
-        # Настройки логирования
-        logging['log_level'] = 'warn'
-        gitlab_rails['log_level'] = 'WARN'
-        nginx['log_format'] = '$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"'
-        nginx['log_level'] = 'warn'
-        postgresql['log_min_duration_statement'] = -1
-        redis['loglevel'] = 'warning'
-        prometheus_monitoring['enable'] = false
     ports:
       - "80:80"
       - "443:443"
@@ -27,7 +19,9 @@ services:
       - ./logs:/var/log/gitlab
       - ./data:/var/opt/gitlab
     networks:
-      - gitlab-network
+      gitlab-network:
+        aliases:
+          - gitlab.local
 
   runner:
     image: gitlab/gitlab-runner:latest
@@ -40,6 +34,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
       - gitlab-network
+    extra_hosts:
+      - "gitlab:host-gateway"
 
 networks:
   gitlab-network:

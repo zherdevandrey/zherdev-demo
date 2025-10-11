@@ -19,7 +19,7 @@ public class BankTransferService {
     private ExternalBankService externalBankService;
 
     @Transactional
-    public void transferMoney(Long fromAccountId, Long toAccountId, BigDecimal amount) {
+    public void transferMoney(Long fromAccountId, Long toAccountId, BigDecimal amount) throws IoException {
         try {
             // Начало транзакции
             Account fromAccount = accountRepository.findById(fromAccountId)

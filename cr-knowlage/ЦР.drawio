@@ -1,0 +1,418 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4" pages="3">
+  <diagram name="Страница — 1" id="pgvcaZ0Rv6buhrO1yxXQ">
+    <mxGraphModel dx="2257" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4sIBM63_LyJVRaDMRHby-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="750" width="830" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="760" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="380" width="216" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4sIBM63_LyJVRaDMRHby-1" target="4sIBM63_LyJVRaDMRHby-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-10" value="1. Запрос создания пользователя" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4sIBM63_LyJVRaDMRHby-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2626" y="1" relative="1" as="geometry">
+            <mxPoint x="-7" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4sIBM63_LyJVRaDMRHby-1" target="4sIBM63_LyJVRaDMRHby-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-48" value="СООБЩЕНИЕ ПОДПИСАНО&amp;nbsp;&lt;div&gt;СЕРТИФИКАТОМ ФП&lt;/div&gt;&lt;div&gt;СЕРТИФИКАТОМ КЛИЕНТА&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4sIBM63_LyJVRaDMRHby-5" vertex="1" connectable="0">
+          <mxGeometry x="0.4064" relative="1" as="geometry">
+            <mxPoint x="30" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4sIBM63_LyJVRaDMRHby-1" target="4sIBM63_LyJVRaDMRHby-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-50" value="ПРОВЕРКА ТОГО ЧТО СЕРТИФИКАТ&amp;nbsp;&lt;div&gt;В СООБШЩЕНИИ И В БАЗЕ ОДИНАКОВЫЕ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4sIBM63_LyJVRaDMRHby-12" vertex="1" connectable="0">
+          <mxGeometry x="0.0362" relative="1" as="geometry">
+            <mxPoint x="81" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4sIBM63_LyJVRaDMRHby-1" target="4sIBM63_LyJVRaDMRHby-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-46" value="ОСТАЛЬНЫЕ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4sIBM63_LyJVRaDMRHby-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.2231" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcI6uLumDVg8t84by_lJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4sIBM63_LyJVRaDMRHby-1" target="4sIBM63_LyJVRaDMRHby-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcI6uLumDVg8t84by_lJ-3" value="2. Выпуск сертификата" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pcI6uLumDVg8t84by_lJ-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.5713" y="-1" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-1" value="CORE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4sIBM63_LyJVRaDMRHby-2" target="4sIBM63_LyJVRaDMRHby-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-2" value="CA ADAPTER" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4sIBM63_LyJVRaDMRHby-4" target="4sIBM63_LyJVRaDMRHby-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-49" value="&lt;div&gt;ПРОВЕРЯЕТ ПОДПИСИ КО, КЛИЕНТА&lt;/div&gt;ДОБАВЛЯЕТСЯ ПОДПИСЬ КК&lt;div&gt;ШИФРУЕТ СООБЩЕНИЕ СЕРТОМ РОРД&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ПРОВЕРКА ПОДПИСИ&amp;nbsp;&lt;/div&gt;&lt;div&gt;ОСУЩЕСТВЛЯЕТСЯ СЕРТИФИКАТОМ&amp;nbsp;&lt;/div&gt;&lt;div&gt;КОТОРЫЙ ПРИХОДИТ В CMS СООБЩЕНИИ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;СЕРТИФИКАТ И ПОДПИСЬ НАХОДЯТСЯ В ОДНОМ ПАКЕТЕ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4sIBM63_LyJVRaDMRHby-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0457" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4sIBM63_LyJVRaDMRHby-4" target="4sIBM63_LyJVRaDMRHby-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-4" value="CC&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;стоит на сервере&lt;/div&gt;&lt;div&gt;астра&lt;/div&gt;&lt;div&gt;axiom jvm&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="640" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-6" value="янтарь&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;средство криптографич защиты информации&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;хранит ключ КК&lt;/div&gt;&lt;div&gt;и серт РОРД&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="390" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-8" value="РОРД" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="605" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-11" value="device_id - cert" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1260" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4sIBM63_LyJVRaDMRHby-13" target="4sIBM63_LyJVRaDMRHby-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-13" value="amber adapter&lt;div&gt;использует java ППИ&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Замкнутая програмная среда&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;астра&lt;/div&gt;&lt;div&gt;axiom jvm&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="975" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-17" value="ПМБР&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;После нажатия кнопки инциализации, до того как клиент пошел в кору он получает транспортный вертификат ТУЦ&lt;/div&gt;&lt;div&gt;ТУЦ сертификат используется для установки защищенного гост соединения с web api&lt;br&gt;см&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;CustomerTlsCertificateWorkflow&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;генерирует пару открытый/закрытый ключ&lt;/div&gt;&lt;div&gt;отправляет открытый ключ в запросе на сертифика&lt;/div&gt;&lt;div&gt;УЦ подписывает запрос на сертификат (ca-adapter)&lt;/div&gt;&lt;div&gt;клиент получает сертификат и связыват&lt;/div&gt;&lt;div&gt;ключ(закрытая часть) - серт(открытая часть)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;все сообщения подписываются закрытым ключем&lt;/div&gt;&lt;div&gt;с помощью закрытого ключа расшифровывает сообщения&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Клиент шифрует сертификатом коры&lt;/div&gt;&lt;div&gt;Подкписывает сертификатом клиента&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="205" y="1270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4sIBM63_LyJVRaDMRHby-17" target="4sIBM63_LyJVRaDMRHby-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-25" value="янтарь (vendor=validata)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;средство криптографич защиты информации&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="770" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-29" value="контур контроля" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="495" y="390" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-30" value="контур обработки" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="570" y="790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-31" value="требование кс3&lt;div&gt;билиотека java ППИ&lt;/div&gt;&lt;div&gt;должна вызывапться&amp;nbsp;&lt;/div&gt;&lt;div&gt;с железного сервера&amp;nbsp;&lt;/div&gt;&lt;div&gt;без виртуализации&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;java ППИ - клиет янтаря&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="750" y="958" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-32" value="2 янтаря&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ограничения доступа&lt;/div&gt;&lt;div&gt;- разные сертификаты&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="580" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-35" value="УЦ" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4sIBM63_LyJVRaDMRHby-38" target="4sIBM63_LyJVRaDMRHby-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-45" value="ГОС TLS&lt;div&gt;ТУНЕЛЬ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4sIBM63_LyJVRaDMRHby-44" vertex="1" connectable="0">
+          <mxGeometry x="0.3296" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-38" value="ТУНЕЛЬ" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="870" width="90" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="4sIBM63_LyJVRaDMRHby-2" target="4sIBM63_LyJVRaDMRHby-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="950" />
+              <mxPoint x="455" y="950" />
+              <mxPoint x="455" y="920" />
+              <mxPoint x="330" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-47" value="Фнукционал янтаря&lt;div&gt;1. Расшифровака&lt;/div&gt;&lt;div&gt;2. Подпись сообщений сертификатом ПП&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="820" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4sIBM63_LyJVRaDMRHby-51" value="Проверка подписис и шифровка выполняются открытым ключем (сертификатом)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Подпись - закрытым ключем&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;расшифровказакрытым ключем&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="1630" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-1" value="Сейчас ~50 лицензий&lt;div&gt;каждый раз когда клиет выходит из акаунта/переустановил приложение и ид&lt;/div&gt;&lt;div&gt;происходит повторный выпуск сертификатов&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Требуеся переиспользовать ранее выданные серты (юзеры уц).&lt;/div&gt;&lt;div&gt;задача &quot;пул пользователей уц&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CA адаптер должен берет самого старого клиента&lt;/div&gt;&lt;div&gt;обновляет его данные, запрашивает серты&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;пример:&lt;/div&gt;&lt;div&gt;сымый старый иванов&lt;/div&gt;&lt;div&gt;меняем его на петрова, под петровым образаемся к уц, получаем серт&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="860" y="660" width="450" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="uIm1Y0EgrWgQWR7Xcj3S-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="885" as="sourcePoint" />
+            <mxPoint x="740" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-3" value="БСС" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uIm1Y0EgrWgQWR7Xcj3S-4" target="uIm1Y0EgrWgQWR7Xcj3S-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-9" value="GRPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uIm1Y0EgrWgQWR7Xcj3S-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.0363" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-4" value="CORE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uIm1Y0EgrWgQWR7Xcj3S-5" target="uIm1Y0EgrWgQWR7Xcj3S-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-7" value="SOAP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="uIm1Y0EgrWgQWR7Xcj3S-6" vertex="1" connectable="0">
+          <mxGeometry x="0.4751" y="-1" relative="1" as="geometry">
+            <mxPoint x="-25" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIm1Y0EgrWgQWR7Xcj3S-5" value="TIR ADAPTER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UknL3V866Mz8AX77sruj-1" value="КЛИЕНТ ПРИ ПЕРВОМ ОБРАЩЕНИИ ПОЛУЧАЕТ СЕРТИФИКАТ КОНТУРА ОБРАБОТКИ&#xa;ДАЛЕЕ ОН ИСПОЛЬЗУЕТ ЕГО ДЛЯ ШИФРОВАНИЯ ЗАПРОСОВ&#xa;&#xa;&#xa;&#xa;&#xa;CMS СООБЕЩЕНИЕ&#xa;- ДАННЫЕ В ОТКРЫТОМ ВИДЕ&#xa;- КЛИЕНТСКАЯ ПОДПИСЬ/СЕРТИФИКАТ&#xa;- КОНТУР ОБРАБОТКИ ПОДПИСЬ/СЕРТИФИКАТ&#xa;- КОНТУР КОНТРОЛЯ ПОДПИСЬ/СЕРТИФИКАТ&#xa;&#xa;&#xa;&#xa;&#xa;исполнение операции&#xa;1. КЛИЕНТ ПОДИСЫВАЕТ СООБЩЕНИЕ СВОИМ ПРИВАТНЫМ КЛЮЧЕМ И ДАЛЕЕ ШИФРУЕТ СЕРТИФИКАТОМ КОНТУРА ОБРАБОТКИ&#xa;2. КЛИЕНТ НАПРАВЛЯЕТ CMS СООБЩЕНИЕ, КОТОРОЕ СОДЕРЖИТ СЕРТИФИКАТ КЛИЕНТА ДЛЯ ПРОВЕРКИ ПОДПИСИ&#xa;3. КОРА ПРИНЯЛА СООБЩЕНИЕ, ОТПРАВИЛА ЕГО В ЯНТАРЬ (СОДЕРЖИТ ПРИВАТНЫЙ КЛЮЧ), ПОЛУЧИЛА РАСШИФРОВАННОЕ СООБЩЕНИЕ&#xa;4. КОРА ПРИ ПОМОЩИ СЕРТИФИКАТА из CMS СООБЩЕНИЕ ПРОВЕРЯЕТ ПОДПИСЬ&#xa;5. КОРА ПОДПИСЫВАЕТ СООБЩЕНИЕ СВОИМ ПРИВАТНЫМ КЛЮЧЕМ&#xa;6. СС АДАПТЕР ПРОВЕРЯЕТ ПОДПИСИ КЛИЕНТА И КО. ДАЛЕЕ ДОБАВЛЯЕТ СВОЮ ПОДПИСЬ И ШИФРУЕТ СЕРТИФИКАТОМ РОРД&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;/api/wallet/v4/register/create/3(CSR)  - ЗАПРОС НА СЕРИТИФИКАТ, НО СЕРИТИФИКАТ ЗДЕСЬ НЕ ПОЛУЧАЕМ. ПОЛУЧАЕМ ПОСЛЕ CONFIRM&#xa;- ЗАПРОС ОТП&#xa;- CSR СОХРАНЯЕТСЯ В WORKFLOW&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;/api/wallet/v4/register/confirm(OTP) - ДОЛГИЙ ЭНДПОИНТ, ПО РЕЗУЛЬТАТАМ КОТОРОГО МП ПОЛУЧАЕТ СЕРТИФИКАТ&#xa;- ПРОВЕРКА OTP&#xa;- ДОСТАЕМ ИЗ WORKFLOW CSR&#xa;- ВЫСТАВЛЯЕМ СТАТУС В ПРОЦЕССЕ РЕГИСТРАЦИИ&#xa;- ЗАПРОС НА СЕРТИФИКАТ УЦ&#xa;- РЕГИСТРИРУМ ПОЛУЧЕННЫЙ СЕРТИФИКАТ В ЦБ" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="2290" width="560" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dq57_j2vLdb_g1SHtbGU-4" target="dq57_j2vLdb_g1SHtbGU-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dq57_j2vLdb_g1SHtbGU-4" target="dq57_j2vLdb_g1SHtbGU-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dq57_j2vLdb_g1SHtbGU-4" target="dq57_j2vLdb_g1SHtbGU-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-4" value="CORE&lt;br&gt;CRL WORKFLOW" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-5" value="УЦ" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-274" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-6" value="ПУЦ ТОПИК" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-7" value="ТУЦ ТОПИК" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="265" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dq57_j2vLdb_g1SHtbGU-8" value="ПУЦ - ПРИКЛАДНОЙ УЦ&lt;div&gt;ТУЦ - ТРАНСПОРТНЫЙ УЦ&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-384" y="110" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FtwS1VE2ofwAxsUsAAHx-2" target="FtwS1VE2ofwAxsUsAAHx-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FtwS1VE2ofwAxsUsAAHx-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.1524" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FtwS1VE2ofwAxsUsAAHx-2" target="FtwS1VE2ofwAxsUsAAHx-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-18" value="Загрузка&lt;br&gt;crl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FtwS1VE2ofwAxsUsAAHx-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.4119" relative="1" as="geometry">
+            <mxPoint x="-2" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.695;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FtwS1VE2ofwAxsUsAAHx-2" target="FtwS1VE2ofwAxsUsAAHx-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-2" value="ПМБР" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="3240" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FtwS1VE2ofwAxsUsAAHx-3" target="FtwS1VE2ofwAxsUsAAHx-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-3" value="CA ADAPTER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="3670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-4" value="ТУЦ" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="3670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FtwS1VE2ofwAxsUsAAHx-22" target="FtwS1VE2ofwAxsUsAAHx-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-9" value="CRON&lt;div&gt;ПОЛУЧАЕТ СПИСОК&amp;nbsp;&lt;/div&gt;&lt;div&gt;CRL&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FtwS1VE2ofwAxsUsAAHx-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0367" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-13" value="серверный сертифитат&lt;br&gt;+ эндпоинт clr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FtwS1VE2ofwAxsUsAAHx-7" target="FtwS1VE2ofwAxsUsAAHx-2" edge="1">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-7" value="VIP NET ИЛИ NGINX + CRYPTO PRO&lt;br&gt;&lt;br&gt;VIP NET ЭТО NGINX + СКЗИ от Инфотекс" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="3520" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-14" value="ГОСТ &lt;br&gt;TLS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="330" y="3459.997142857143" as="geometry">
+            <mxPoint x="-65" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-20" value="Уточнить у Лены на сколько это важно" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="3190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FtwS1VE2ofwAxsUsAAHx-22" value="CRL SERVICE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="3670" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uBDOwDkbMl7s8IWg1npg" name="mock sbercloud">
+    <mxGraphModel dx="2022" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SZgRoid6-ahaHkUjuE02-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-1" target="SZgRoid6-ahaHkUjuE02-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-1" value="MOCK PRE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-2" target="SZgRoid6-ahaHkUjuE02-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-2" value="MOCK TEST" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-3" target="SZgRoid6-ahaHkUjuE02-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-3" value="RORD PRE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="485" as="sourcePoint" />
+            <mxPoint x="570" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-6" value="ПРИ ВКЛЮЧЕНИИ ДЕБАГ&lt;div&gt;ПОСЛЕ ПОЛУЧЕНИЯ СООБЩЕНИЯ ОТ РОРД&lt;/div&gt;&lt;div&gt;СС АДАПТЕР ОТПРАВЛЯЕТ СООБШЕНИЕ В МОК СЕРВИС И КОРУ ПРЕПРОДА,&lt;/div&gt;&lt;div&gt;КОТОРЫЙ ДАЛЕЕ ОТПРАВЛЯЕТ СООБЩЕНИЕ В СБЕР&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="225" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-10" value="СС АДАПТЕР" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-12" target="SZgRoid6-ahaHkUjuE02-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-12" target="SZgRoid6-ahaHkUjuE02-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-12" value="CC ADAPTER" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="SZgRoid6-ahaHkUjuE02-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-20" value="1. ШИФРУЕМ СЕРТОМ/&lt;br&gt;&amp;nbsp; &amp;nbsp; ДЕШИФРУЕМ ПРИВАТНЫМ КЛЮЧОМ&lt;br&gt;&lt;br&gt;2. ПОДПИСЫВАЕМ&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="-10" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-21" value="ПОЛУЧЕНИЕ ОТВЕТА RORD НА ПРЕ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="103" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-23" target="SZgRoid6-ahaHkUjuE02-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-23" value="MOCK PRE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-25" target="SZgRoid6-ahaHkUjuE02-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-25" value="MOCK TEST" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-28" target="SZgRoid6-ahaHkUjuE02-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-28" value="&lt;div&gt;CC ADAPTER&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-29" value="ПРИ ВКЛЮЧЕНИИ ДЕБАГ&lt;div&gt;ПОСЛЕ ПОЛУЧЕНИЯ СООБЩЕНИЯ ОТ РОРД&lt;/div&gt;&lt;div&gt;СС АДАПТЕР ОТПРАВЛЯЕТ СООБШЕНИЕ В МОК СЕРВИС,&lt;/div&gt;&lt;div&gt;КОТОРЫЙ ДАЛЕЕ ОТПРАВЛЯЕТ СООБЩЕНИЕ В СБЕР&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="150" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SZgRoid6-ahaHkUjuE02-30" target="SZgRoid6-ahaHkUjuE02-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-37" value="&lt;div&gt;СС адаптер должен зашифросать сообщение.&lt;/div&gt;&lt;div&gt;Шифрует он на сертификат коры, тк нам доступен приватный ключ коры preprod&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="SZgRoid6-ahaHkUjuE02-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.14" relative="1" as="geometry">
+            <mxPoint x="70" y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-30" value="СС АДАПТЕР" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-31" value="RORD PRE" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-34" value="ОТПРАВКА ЗАПРОСА В РОРД ОТ СБЕРКЛАУД" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-500" y="100" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-610" y="480" as="sourcePoint" />
+            <mxPoint x="-210" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-39" value="Расшифровывает приватным ключом коры,&lt;br&gt;убирает подпись коры сбера&lt;br&gt;подписывает сертификатом коры пре&lt;br&gt;далее отправляем в контур контроля препрода" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-355" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-41" value="Проксирует вызов в мок препрода" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-360" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-44" value="CORE" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZgRoid6-ahaHkUjuE02-46" value="Шифрует сертификатом КК сбера" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="414" y="410" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_H_A2X_SbstTiTWt9WqZ" name="АД-КК">
+    <mxGraphModel dx="1753" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rQOWluhkCJ1iAe6KPbY6-3" target="rQOWluhkCJ1iAe6KPbY6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-2" value="ДАННЫЕ + ГРУППЫ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rQOWluhkCJ1iAe6KPbY6-1">
+          <mxGeometry x="-0.0063" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-3" value="АД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-4" value="КК" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-5" value="SCOPE FINMON" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-6" value="АД ГРУППА FINMON" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-7" value="АД ГРУППА ABC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-8" value="SCOPE CBDC USER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQOWluhkCJ1iAe6KPbY6-9" value="Клиент идет в кейклоак, кейклоак идет в ад и получает все адшные роли пользака&lt;br&gt;кейклок по ад ролям находит лужный скоуп и возвращает его в админку&lt;div&gt;анминка мипит скоуп на роль админки&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="50" width="490" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

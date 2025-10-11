@@ -1,3 +1,6 @@
+# Перед запуском необходимо создать сеть
+docker network create gitlab-network
+
 # Получение пароля
 docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 
@@ -42,7 +45,7 @@ gitlab-rails runner "puts Gitlab::CurrentSettings.current_application_settings.r
 docker exec -it gitlab-runner gitlab-runner register
 
 - Пример
-Enter the GitLab instance URL: http://gitlab/   http://172.18.0.2/
+Enter the GitLab instance URL: http://gitlab   http://172.18.0.2/
 Enter the registration token: <paste your token> sHLrpZLxCC5so2Vbhpis
 Enter a description for the runner: docker-runner
 Enter tags for the runner (comma-separated): docker

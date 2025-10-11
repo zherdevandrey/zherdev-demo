@@ -1,0 +1,19 @@
+concurrent = 4
+check_interval = 0
+
+[[runners]]
+name = "docker-runner"
+url = "http://gitlab"
+token = "ВАШ_ТОКЕН_ЗДЕСЬ"
+executor = "docker"
+[runners.docker]
+tls_verify = false
+image = "alpine:latest"
+privileged = false
+disable_cache = false
+volumes = ["/cache", "/var/run/docker.sock:/var/run/docker.sock"]
+shm_size = 0
+[runners.cache]
+[runners.cache.s3]
+[runners.cache.gcs]
+request_concurrency = 4

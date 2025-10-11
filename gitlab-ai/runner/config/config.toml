@@ -4,16 +4,15 @@ check_interval = 0
 [[runners]]
 name = "docker-runner"
 url = "http://gitlab"
-token = "ВАШ_ТОКЕН_ЗДЕСЬ"
+token = "glrt-4_wur2PDzHSGpwCeTet-DG86MQpwOjIKdDozCnU6MQ8.01.171kh65ja"
 executor = "docker"
+request_concurrency = 4
+
 [runners.docker]
 tls_verify = false
 image = "alpine:latest"
 privileged = false
 disable_cache = false
+wait_for_services_timeout = 120
 volumes = ["/cache", "/var/run/docker.sock:/var/run/docker.sock"]
 shm_size = 0
-[runners.cache]
-[runners.cache.s3]
-[runners.cache.gcs]
-request_concurrency = 4

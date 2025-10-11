@@ -1,3 +1,8 @@
+
+docker exec -it gitlab bash
+gitlab-rails console -e production
+
+
 # Создание пользователя
 ## 1️⃣ создаём организацию (обязательно для 17.x)
 org = Organizations::Organization.create!(
@@ -28,3 +33,11 @@ organization: org
 ## 4️⃣ привязываем namespace к пользователю
 user.namespace = ns
 user.save!(validate: false)
+
+
+## Получение токера для ранера
+docker exec -it gitlab-runner gitlab-runner register --non-interactive --url "http://gitlab/" --registration-token "sHLrpZLxCC5so2Vbhpis" --executor "docker" --docker-image "alpine:latest" --description "docker-runner" --tag-list "docker,linux" --run-untagged="true" --locked="false" --access-level="not_protected"
+
+
+## Удаление ранера
+docker exec -it gitlab-runner gitlab-runner unregister --name "docker-runner"

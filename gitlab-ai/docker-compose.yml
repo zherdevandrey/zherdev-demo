@@ -1,13 +1,19 @@
 version: '3.6'
 services:
-  web:
+  gitlab:
     image: 'gitlab/gitlab-ce:latest'
     restart: always
     hostname: 'localhost'
+    container_name: gitlab
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://localhost'
         gitlab_rails['gitlab_shell_ssh_port'] = 2222
+        # Сильно уменьшить использование памяти
+        puma['worker_processes'] = 1
+        sidekiq['max_concurrency'] = 5
+        postgresql['shared_buffers'] = "64MB"
+        redis['max_memory'] = "128MB"
     ports:
       - '80:80'
       - '443:443'
@@ -16,3 +22,21 @@ services:
       - './config:/etc/gitlab'
       - './logs:/var/log/gitlab'
       - './data:/var/opt/gitlab'
+    networks:
+      - gitlab-network
+      -
+  gitlab-runner:
+    image: gitlab/gitlab-runner:latest
+    container_name: gitlab-runner
+    hostname: gitlab-runner
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - './runner/config:/etc/gitlab-runner'
+    networks:
+      - gitlab-network
+    depends_on:
+      - gitlab
+    restart: unless-stopped
+networks:
+  gitlab-network:
+    driver: bridge

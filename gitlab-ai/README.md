@@ -1,9 +1,7 @@
+# Получение пароля
+docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 
-docker exec -it gitlab bash
-gitlab-rails console -e production
-
-
-# Создание пользователя
+# Если пароль и пользователь не найдейны. Создание пользователя
 ## 1️⃣ создаём организацию (обязательно для 17.x)
 org = Organizations::Organization.create!(
 name: 'Default Organization',
@@ -30,14 +28,51 @@ owner: user,
 organization: org
 )
 
-## 4️⃣ привязываем namespace к пользователю
+## 4️⃣ привязываем namespace к пользователю## 4️⃣ привязываем namespace к пользователю
 user.namespace = ns
 user.save!(validate: false)
 
 
-## Получение токера для ранера
-docker exec -it gitlab-runner gitlab-runner register --non-interactive --url "http://gitlab/" --registration-token "sHLrpZLxCC5so2Vbhpis" --executor "docker" --docker-image "alpine:latest" --description "docker-runner" --tag-list "docker,linux" --run-untagged="true" --locked="false" --access-level="not_protected"
+## 4️⃣ Регистрация ранера
+docker exec -it gitlab-runner gitlab-runner register
+
+- Пример
+Enter the GitLab instance URL: http://gitlab/
+Enter the registration token: <paste your token>
+Enter a description for the runner: docker-runner
+Enter tags for the runner (comma-separated): docker
+Enter executor: docker
+Enter the default Docker image: alpine:latest
+
+## 4️⃣ Перезагрузка после успешной регистрации
+docker restart gitlab-runner
 
 
-## Удаление ранера
-docker exec -it gitlab-runner gitlab-runner unregister --name "docker-runner"
+## 4️⃣ Проблема token signing key не установлен по дефолту
+- В логе будет ошибка - "CI job token signing key is not set","exception.backtrace"
+
+- Починка
+1) docker exec -it gitlab bash
+2) gitlab-rails console
+3) # Установите CI JWT signing key
+ApplicationSetting.current_without_cache.update!(ci_job_token_signing_key: OpenSSL::PKey::RSA.new(2048).to_pem)
+
+# Или альтернативный способ:
+Gitlab::CurrentSettings.update!(ci_job_token_signing_key: OpenSSL::PKey::RSA.new(2048).to_pem)
+
+# Проверьте, что ключ установлен
+Gitlab::CurrentSettings.ci_job_token_signing_key?
+
+4) docker restart gitlab
+
+5) Альтернативное решение
+```
+version: '3.8'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        gitlab_rails['ci_job_token_signing_key'] = File.read('/path/to/your/private.key')
+    # ... остальные настройки
+```

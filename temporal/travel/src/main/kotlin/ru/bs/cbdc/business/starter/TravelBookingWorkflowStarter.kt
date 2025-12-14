@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 import ru.bs.cbdc.business.dto.TravelRequest
 import ru.bs.cbdc.business.workflow.TravelWorkflow
+import java.util.UUID
 
 @Component
 class TravelBookingWorkflowStarter {

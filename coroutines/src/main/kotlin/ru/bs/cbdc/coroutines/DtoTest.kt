@@ -1,13 +1,6 @@
 package ru.bs.cbdc.coroutines
 
-data class DtoTest(val name: String) {
+class DtoTest {
 
-
-    internal class InnerTest(val name: String) {
-
-
-
-
-    }
 
 }

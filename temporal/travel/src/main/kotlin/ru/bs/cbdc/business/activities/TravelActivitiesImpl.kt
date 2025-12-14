@@ -41,7 +41,7 @@ class TravelActivitiesImpl : TravelActivities {
         )
 
         //simulate a failure to demonstrate compensation
-        throw RuntimeException("Simulated transport arrangement failure!")
+//        throw RuntimeException("Simulated transport arrangement failure!")
     }
 
     override fun cancelTransport(travelRequest: TravelRequest) {

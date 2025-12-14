@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class SpringAiCodeReviewApplication
 
 fun main(args: Array<String>) {
+	println("123")
 	runApplication<SpringAiCodeReviewApplication>(*args)
 }

@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service
 import ru.bs.cbdc.business.activities.TravelActivities
 import ru.bs.cbdc.business.dto.TravelRequest
 import java.time.Duration
+import kotlin.random.Random
 
 @Service
 class TravelWorkflowImpl : TravelWorkflow {
@@ -50,18 +51,23 @@ class TravelWorkflowImpl : TravelWorkflow {
             activities.bookHotel(travelRequest, bookingReference)
             saga.addCompensation(Functions.Func<Any> { activities.cancelHotel(travelRequest) })
 
-            activities.arrangeTransport(travelRequest)
-            saga.addCompensation(Functions.Func<Any> { activities.cancelTransport(travelRequest) })
+            val nextInt = Random.nextInt()
+
+            if (nextInt % 2 == 0) {
+                activities.arrangeTransport(travelRequest)
+                saga.addCompensation(Functions.Func<Any> { activities.cancelTransport(travelRequest) })
+            }
 
             // 24 hours (1 day) -> wait for user confirmation if you won't
             // get any withing 24hr then cancel it
             println("⏳ Waiting for user confirmation for 2 min...")
 
             val isConfirmed = Workflow.await(
-                Duration.ofMinutes(2)
+                Duration.ofMinutes(20)
             ) { isUserConfirmed }
 
-            if (!isConfirmed) {
+
+        if (!isConfirmed) {
                 println(
                     "🛑 User did not confirm within 2 minutes, cancelling the booking for user: #{travelRequest.userId}"
                 )

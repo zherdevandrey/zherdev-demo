@@ -1,9 +1,3 @@
 spring:
   application:
     name: payment
-
-grpc:
-  client:
-    aml-service:
-      address: 'static://localhost:9090'
-      negotiation-type: plaintext

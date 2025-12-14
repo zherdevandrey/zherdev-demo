@@ -8,12 +8,7 @@ import java.util.UUID
 import kotlin.coroutines.CoroutineContext
 
 @SpringBootApplication
-class PaymentApplication(val amlClientService:AmlClientService): CommandLineRunner {
-    override fun run(vararg args: String?): Unit = runBlocking {
-        amlClientService.checkAml(UUID.randomUUID().toString())
-    }
-
-}
+class PaymentApplication
 
 fun main(args: Array<String>) {
     runApplication<PaymentApplication>(*args)

@@ -7,7 +7,6 @@ plugins {
 
 group = "ru.bs.cbdc"
 version = "0.0.1-SNAPSHOT"
-description = "business"
 
 java {
 	toolchain {
